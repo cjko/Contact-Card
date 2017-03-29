@@ -1,0 +1,75 @@
+* {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+input[type=textarea] {
+	height: 4em;
+	display: block;
+	margin: 5px 0;
+	width: 100%;
+	padding: 0;
+}
+
+.wrapper {
+	padding: 20px;
+}
+
+h1 {
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+}
+
+.add-user {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 50px;
+}
+
+.add-user .row {
+	margin: 20px 0;
+	width: 100%;
+}
+
+.add-user input[type=submit] {
+	margin-bottom: 20px;
+}
+
+
+.contacts {
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+	/*text-align: right;*/
+	/*background-color: pink;*/
+}
+
+.card {
+	display: inline-block;
+	vertical-align: top;
+	margin: 30px;
+	border: 2px solid black;
+	width: 300px;
+	text-align: left;
+	height: 10em;
+	padding: 10px;
+}
+
+.card p {
+	margin-bottom: 10px
+}
+
+.name {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h3 {
+	color: red;
+}
+
+.hidden {
+	display: none;
+}
+}
